@@ -1,0 +1,30 @@
+.carousel-inner .item
+{
+	position: relative;
+	width: 100%;
+	height: 0;
+	padding-bottom: 56%;
+}
+
+.carousel-inner .item iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0; top: 0;
+}
+
+.btn-digilent
+{
+	font-size: 1.2em!important;;;
+	color: #333;
+	text-decoration: none;	
+	background-color: #DDE4E3;
+	border-color: #C6D2D0;
+}
+
+.btn-digilent:hover
+{
+	text-decoration: none;	
+	background-color: #C6D2D0;
+	border-color: #a9bcb9!important;;
+}

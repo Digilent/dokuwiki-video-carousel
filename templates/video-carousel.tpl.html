@@ -1,0 +1,33 @@
+<div class="col-md-8">
+	
+	<div class="col-md-3">
+		
+		<!-- BEGIN BUTTONS -->
+		<a onclick="pauseAllVideos(); callPlayer('video{NUMBER}', 'playVideo')" data-target="#digilentVideoCarousel" data-slide-to="{NUMBER}" class="btn btn-digilent btn-lg btn-block">{NAME}</a>
+		<!-- END BUTTONS -->
+		<!-- BEGIN LINK -->
+		<a href="{URL}" class="btn btn-digilent btn-lg btn-block">{NAME}</a>
+		<!-- END LINK -->
+	</div>	
+			
+	<div class="col-md-9">
+		<div id="digilentVideoCarousel" class="carousel">
+			<ol class="carousel-indicators">
+				
+				<!-- BEGIN INDICATORS -->
+				<li data-target="#digilentVideoCarousel" data-slide-to="{NUMBER}" class=""></li>
+				<!-- END INDICATORS -->
+				
+			</ol>
+			<div class="carousel-inner">
+		
+					<!-- BEGIN YOUTUBE -->
+					<div id="video{NUMBER}" class="item {ACTIVE}">
+						<iframe width="100%" height="50%" frameborder="0" allowfullscreen="1" type="text/html" src="//www.youtube.com/embed/{EMBEDCODE}?enablejsapi=1"></iframe>
+					</div>
+					<!-- END YOUTUBE -->
+			
+			</div>
+		</div>
+	</div>	
+</div>	
